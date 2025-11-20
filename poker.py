@@ -10,8 +10,8 @@ def create_deck():
     random.shuffle(deck)
     return deck
 
-# Example usage (for testing):
+
 if __name__ == "__main__":
     deck = create_deck()
     print(f"Created a shuffled deck with {len(deck)} cards.")
-    # print(deck) # Uncomment to see the full deck
+    
